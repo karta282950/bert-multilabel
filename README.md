@@ -4,6 +4,11 @@
 
 This text record multi-label text classification using bert, I generate a new file call run_classifier_multi.py revised by run_classifier.py.
 
+Processor:
+
+train.flag order:
+
+
 **\*\*\*\*\* End new information \*\*\*\*\***
 
 ## Introduction

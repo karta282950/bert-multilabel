@@ -2,7 +2,7 @@
 
 **\*\*\*\*\* New May 3th, 2019: Multi-label classification \*\*\*\*\***
 
-This text record multi-label text classification using bert, I generate a new file call run_classifier_multi.py revised by run_classifier.py.
+This text record multi-label text classification using bert, I generate a new file call [run_classifier_multi.py] revised by run_classifier.py.
 
 **\*\*\*\*\* End new information \*\*\*\*\***
 

@@ -1,64 +1,7 @@
 # BERT
 
-**\*\*\*\*\* New February 7th, 2019: TfHub Module \*\*\*\*\***
-
-BERT has been uploaded to [TensorFlow Hub](https://tfhub.dev). See
-`run_classifier_with_tfhub.py` for an example of how to use the TF Hub module, 
-or run an example in the browser on [Colab](https://colab.sandbox.google.com/github/google-research/bert/blob/master/predicting_movie_reviews_with_bert_on_tf_hub.ipynb).
-
-**\*\*\*\*\* New November 23rd, 2018: Un-normalized multilingual model + Thai +
-Mongolian \*\*\*\*\***
-
-We uploaded a new multilingual model which does *not* perform any normalization
-on the input (no lower casing, accent stripping, or Unicode normalization), and
-additionally inclues Thai and Mongolian.
-
-**It is recommended to use this version for developing multilingual models,
-especially on languages with non-Latin alphabets.**
-
-This does not require any code changes, and can be downloaded here:
-
-*   **[`BERT-Base, Multilingual Cased`](https://storage.googleapis.com/bert_models/2018_11_23/multi_cased_L-12_H-768_A-12.zip)**:
-    104 languages, 12-layer, 768-hidden, 12-heads, 110M parameters
-
-**\*\*\*\*\* New November 15th, 2018: SOTA SQuAD 2.0 System \*\*\*\*\***
-
-We released code changes to reproduce our 83% F1 SQuAD 2.0 system, which is
-currently 1st place on the leaderboard by 3%. See the SQuAD 2.0 section of the
-README for details.
-
-**\*\*\*\*\* New November 5th, 2018: Third-party PyTorch and Chainer versions of
-BERT available \*\*\*\*\***
-
-NLP researchers from HuggingFace made a
-[PyTorch version of BERT available](https://github.com/huggingface/pytorch-pretrained-BERT)
-which is compatible with our pre-trained checkpoints and is able to reproduce
-our results. Sosuke Kobayashi also made a
-[Chainer version of BERT available](https://github.com/soskek/bert-chainer)
-(Thanks!) We were not involved in the creation or maintenance of the PyTorch
-implementation so please direct any questions towards the authors of that
-repository.
-
-**\*\*\*\*\* New November 3rd, 2018: Multilingual and Chinese models available
-\*\*\*\*\***
-
-We have made two new BERT models available:
-
-*   **[`BERT-Base, Multilingual`](https://storage.googleapis.com/bert_models/2018_11_03/multilingual_L-12_H-768_A-12.zip)
-    (Not recommended, use `Multilingual Cased` instead)**: 102 languages,
-    12-layer, 768-hidden, 12-heads, 110M parameters
-*   **[`BERT-Base, Chinese`](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip)**:
-    Chinese Simplified and Traditional, 12-layer, 768-hidden, 12-heads, 110M
-    parameters
-
-We use character-based tokenization for Chinese, and WordPiece tokenization for
-all other languages. Both models should work out-of-the-box without any code
-changes. We did update the implementation of `BasicTokenizer` in
-`tokenization.py` to support Chinese character tokenization, so please update if
-you forked it. However, we did not change the tokenization API.
-
-For more, see the
-[Multilingual README](https://github.com/google-research/bert/blob/master/multilingual.md).
+**\*\*\*\*\* New May 3th, 2019: Multi-label classification \*\*\*\*\***
+This text record multi-label text classification using bert, I generate a new file call run_classifier_multi.py revised by run_classifier.py.
 
 **\*\*\*\*\* End new information \*\*\*\*\***
 
@@ -69,8 +12,7 @@ For more, see the
 obtains state-of-the-art results on a wide array of Natural Language Processing
 (NLP) tasks.
 
-Our academic paper which describes BERT in detail and provides full results on a
-number of tasks can be found here:
+Paper of bert in detail:
 [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805).
 
 To give a few numbers, here are the results on the

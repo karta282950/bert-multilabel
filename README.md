@@ -5,13 +5,16 @@
 This text record multi-label text classification using bert, I generate a new file call run_classifier_multi.py revised by run_classifier.py.
 
 Processor:
+
 For multiclass problem, I create a new processor(call multiclassProcessor in [rum_classifier_multi.py]) and add in main function.We can call this processor by task name equals kerry(My name).
 
 Train.flag order:
+
 (1)Move the train's text and label order out of loop
 (2)Create label list to save it.
 
 Excute:
+
 In terminal, excute
 ```shell
 export BERT_BASE_DIR=./chinese_L-12_H-768_A-12

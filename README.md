@@ -17,7 +17,7 @@ In terminal, excute
 export BERT_BASE_DIR=./chinese_L-12_H-768_A-12
 export MY_DATASET=./data_repeat
 ```
-and
+then,
 ```shell
 python ./run_classifier_multi.py \
   --task_name=kerry \
@@ -35,6 +35,7 @@ python ./run_classifier_multi.py \
   --output_dir=./tmp/multi_output
 ```
 Result:
+
 See test_results.tsv in file([multi_output]), the order as same as test.csv.Also,the values are each label's prob.
 
 **\*\*\*\*\* End new information \*\*\*\*\***

@@ -41,6 +41,10 @@ Result:
 
 See test_results.tsv in file([multi_output]), the order as same as test.csv.Also,the values are each label's prob.
 
+**\*\*\*\*\* New May 7th, 2019: Multi-label classification \*\*\*\*\***
+
+You can run [`script/pretrain.sh`](./script/pretrain.sh) in terminal.
+
 **\*\*\*\*\* End new information \*\*\*\*\***
 
 ## Introduction

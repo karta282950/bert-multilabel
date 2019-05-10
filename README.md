@@ -6,7 +6,7 @@ This text record multi-label text classification using bert, I generate a new fi
 
 Processor:
 
-For multiclass problem, I create a new processor(call multiclassProcessor in [rum_classifier_multi.py]) and add in main function.We can call this processor by task name equals kerry(My name).
+For multiclass problem, I create a new processor(call multiclassProcessor in [rum_classifier_multi.py]) and add in main function.We can call this processor by task name  kerry(My name XDDDD).
 
 Train.flag order:
 

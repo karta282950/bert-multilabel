@@ -18,7 +18,7 @@ Excute:
 In terminal, excute
 ```shell
 export BERT_BASE_DIR=./chinese_L-12_H-768_A-12
-export MY_DATASET=./data_repeat
+export MY_DATASET=./data
 ```
 then,
 ```shell
@@ -35,7 +35,7 @@ python ./run_classifier_multi.py \
   --train_batch_size=32 \
   --learning_rate=5e-5 \
   --num_train_epochs=2.0 \
-  --output_dir=./tmp/multi_output
+  --output_dir=./tmp/Ecommerce_output
 ```
 Result:
 

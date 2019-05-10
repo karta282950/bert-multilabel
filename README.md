@@ -45,6 +45,8 @@ See test_results.tsv in file([multi_output]), the order as same as test.csv.Also
 
 You can run [`script/pretrain.sh`](./script/pretrain.sh) in terminal.
 
+**\*\*\*\*\* New May 10th, 2019: Multi-label classification \*\*\*\*\***
+
 **\*\*\*\*\* End new information \*\*\*\*\***
 
 ## Introduction

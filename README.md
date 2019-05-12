@@ -46,6 +46,17 @@ See test_results.tsv in file([multi_output]), the order as same as test.csv.Also
 You can run [`script/run_classifier_multi.sh`](./script/run_classifier_multi.sh) in terminal.
 
 **\*\*\*\*\* New May 10th, 2019: Multi-label classification \*\*\*\*\***
+You should see output like this:
+
+```
+***** Eval results *****
+  eval_accuracy = 0.8518161
+  eval_loss = 0.44456044
+  global_step = 1553
+  loss = 0.44453657
+```
+
+This means that the Dev set accuracy was 85.18%. 
 
 **\*\*\*\*\* End new information \*\*\*\*\***
 

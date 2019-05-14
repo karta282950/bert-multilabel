@@ -57,7 +57,7 @@ You should see output like this:
   loss = 0.44453657
 ```
 
-This means that the Dev set accuracy was 85.18%. 
+This means that the Dev set accuracy was 85.18%.I run data['data'] on GPU 1080Ti for about 8.5hr.
 
 **\*\*\*\*\* End new information \*\*\*\*\***
 
